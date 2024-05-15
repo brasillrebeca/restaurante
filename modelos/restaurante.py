@@ -5,11 +5,13 @@
 from modelos.avaliacao import Avaliacao
 
 class Restaurante:
-    #variável lsita
+    # Representa um restaurante e suas características
     restaurantes = []
 
     # inicializando atribuições direcionadas para cada elemento novo criado com a definição do método init + referência self + valores a serem recebidos
     def __init__(self, nome, categoria):
+        # Inicializa uma instância de Restaurante.
+
         self._nome = nome.title()
         self._categoria = categoria
         # atributo privado _
